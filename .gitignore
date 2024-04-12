@@ -1,1 +1,16 @@
+# Logs
+logs
+*.log
+
+# Diretório de construção
+.nuxt
+dist
+
+# Dependências
 node_modules
+
+# Arquivos de configuração
+.env
+
+# Arquivos gerados automaticamente
+.nuxt
