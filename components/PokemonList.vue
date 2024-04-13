@@ -2,7 +2,7 @@
     <div class="flex flex-wrap justify-center gap-4">
         <PokemonCard v-for="pokemon in pokemons" :key="pokemon.name" :url="pokemon.url" />
         <div v-if="hasNextPage" ref="loadMoreRef" class="w-full text-center ">Carregando mais...</div>
-        <div  ref="loadMoreRef" class="w-full text-center mt-10 mb-20">Footer</div>
+        <div ref="loadMoreRef" class="w-full text-center mt-10 mb-20"></div>
 
     </div>
 </template>
